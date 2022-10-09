@@ -27,28 +27,7 @@ public class Main {
 
             switch (menu) {
                 case 1:
-                    System.out.println("Ауди");
-                    audi.print_date(date);
-                    audi.print_time(hour, minute);
-                    audi.print_place();
-                    audi.print_how_many(10);
-
-                    System.out.println("\nМерседес");
-                    mercedes.print_place();
-                    mercedes.print_how_many(1);
-
-                    System.out.println("\nВиниловая плёнка");
-                    vinil.print_count(400);
-                    vinil.print_characteristic("Винил");
-
-                    System.out.println("\nFord");
-                    ford.print_date(date);
-                    ford.print_time(hour, minute);
-                    ford.print_place();
-                    ford.print_how_many(15);
-                    ford.print_name("Седаны");
-                    ford.print_inf();
-                    break;
+                    
                 case 2:
                     in.close();
                     break;
